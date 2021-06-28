@@ -1,0 +1,69 @@
+{
+  "success":"true",
+  "result":
+    {
+      "resource_id":"F-C0032-001",
+      "fields":[
+        {
+          "id":"datasetDescription",
+          "type":"String"
+        },
+        {
+          "id":"locationName",
+          "type":"String"
+        },
+        {
+          "id":"parameterName",
+          "type":"String"
+        },
+        {
+          "id":"parameterValue",
+          "type":"String"
+        },
+        {
+          "id":"parameterUnit",
+          "type":"String"
+        },
+        {
+          "id":"startTime",
+          "type":"Timestamp"
+        },
+        {
+          "id":"endTime",
+          "type":"Timestamp"
+        }
+      ]
+    },
+  "records":
+    {
+      "datasetDescription":"三十六小時天氣預報",
+      "location":[
+        {
+          "locationName":"嘉義縣",
+          "weatherElement":[
+            {
+              "elementName":"Wx",
+              "time":[
+                {
+                  "startTime":"2020-09-01 12:00:00",
+                  "endTime":"2020-09-01 18:00:00",
+                  "parameter":
+                    {
+                      "parameterName":"晴時多雲",
+                      "parameterValue":"2"
+                    }
+                },
+              ]
+            },
+            {
+              "elementName":"PoP",
+              "time":[
+                {
+                  "startTime":"2020-09-01 12:00:00",
+                  "endTime":"2020-09-01 18:00:00",
+                  "parameter":
+                    {
+                      "parameterName":"10",
+                      "parameterUnit":"百分比"
+                    }
+                },{"startTime":"2020-09-01 18:00:00","endTime":"2020-09-02 06:00:00","parameter":{"parameterName":"20","parameterUnit":"百分比"}},{"startTime":"2020-09-02 06:00:00","endTime":"2020-09-02 18:00:00","parameter":{"parameterName":"20","parameterUnit":"百分比"}}]}]},
